@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 40px;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.left--logo{
+    float:left;
+    color: rgba(0, 0, 0, 0.596);
+    text-transform: uppercase;
+}
+.right--head {
+    margin-right: 40px;
+    list-style-type: none;
+    letter-spacing: 2px;
+    
+}
+.right--head li{
+    float: right;
+    margin-right: 30px;
+}
+.left--logo , .right--head{
+    line-height: 30px;
+}
+.right--head a{
+    color: inherit;
+    font-size: 20px;
+}
+
+
+#gym--image {
+  height: 500px;
+  width: 100%;
+  background: url("https://www.countryandtownhouse.co.uk/wp-content/uploads/2019/01/E-by-Equinox-Strength-Floor-Stairwell.jpg") no-repeat center center;
+  float: centre;
+ animation-name: hero-zoom;
+ animation-duration: 5s;
+ animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom{
+  from{
+      transform: scale(1);
+  }
+  to{
+    transform: scale(1.1);
+  }
+}
