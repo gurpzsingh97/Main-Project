@@ -17,7 +17,10 @@ header{
     color: #a69179;
     text-transform: uppercase;
 }
-
+#nav--bar{
+    text-align: center;
+    margin-right: 9%;
+}
 
 #nav--bar a:hover{
     color: #ff110070;
@@ -124,5 +127,23 @@ header{
 margin: 5%;
 margin-left: 30%;
 margin-right:30%;
+
+}
+.equipment--info{
+    text-align:center;
+    margin-top: 3%;
+    overflow: hidden;
 }
 
+.equipment--images{
+    float: left;
+    margin-left: 15%; 
+    width: 180px;
+text-align: center;
+
+}
+
+.images--section{
+    overflow: hidden;
+    
+}
