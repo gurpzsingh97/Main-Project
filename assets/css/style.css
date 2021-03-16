@@ -112,17 +112,7 @@ margin-right:30%;
     overflow: hidden;
 }
 
-.equipment--images{
-    float: left;
-    margin-left: 13%; 
-    width: 180px;
-text-align: center;
 
-}
-
-.images--section{
-    overflow: hidden;
-}
 .dropdown--button{
 float: right;
 margin-top:5px;
