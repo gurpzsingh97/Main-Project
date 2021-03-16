@@ -6,9 +6,7 @@ body{
     color: #a69179;
     font-family: 'Quicksand', sans-serif;
 }
-header{
-    overflow:hidden;
-}
+
 
 .left--logo{
     margin-left: 10px;
@@ -65,45 +63,23 @@ header{
     font-size: 10vh;
     background-color: #000000ba;
 }
-#price{
-    margin-top: 40vh;
-    color: #ffffff;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 200%;
-}
-.about--gym{
-    margin-top: 60px;
-    margin-left: 20%;
-    margin-right: 20%;
-    overflow: hidden;
-}
-.about--gym--image{
-    float:right;
-    height:60%;
-    width:60%;
-}
+
+
+
 .sign--up--button{
     background-color: #a69179;
 }
 
+.about--gym{
+    margin-top: 2%;
+    text-align:center;
+}
 .why--us{
-    text-align: center;
-    margin: 1%;
-    margin-top: 60px;
-    margin-left: 20%;
-    margin-right: 20%;
-    overflow: hidden;
+    margin-top: 2%;
+    text-align:center;
 }
-.why--us p {
-    text-align: center;
-}
-.why--us--image{
-    float:left;
-    height:60%;
-    width:60%;
-}
+
+
 
 .social--networks{
     text-align: center;
