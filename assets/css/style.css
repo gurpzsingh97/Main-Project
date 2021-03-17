@@ -32,9 +32,8 @@ body{
     color: inherit;
     font-size: 20px;
 }
-header{
-    overflow:hidden;
-}
+
+
 
 
 
@@ -122,16 +121,21 @@ margin-right: 40px;
 }
 
 @media screen and  (max-width: 575px) {
-  .dropdown-menu{
+  .dropdown--menu{
        display: block; 
     }  
-    .equipment--images{
-        padding:15%;
-    }
     .title h1{
         font-size: 25px;
     }
-    
+    .title--image{
+        margin-top:45px;
+    }
+    .about--body{
+        margin-top:45px;
+        padding:2%;
+        text-align: center;
+
+    }
 
     #nav--bar li{
         display:none;
@@ -140,5 +144,11 @@ margin-right: 40px;
 @media screen and (min-width: 576px) {
   .dropdown--menu{
        display: none;
+    }
+}
+@media screen and  (max-width: 800px){
+    .main--page--images img{
+        height:100%;
+        width:100%;
     }
 }
