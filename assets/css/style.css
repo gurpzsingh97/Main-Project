@@ -98,14 +98,18 @@ body{
   color: #a69179;
 }
 #sign--up--image{
-    padding:10%;
+    padding:5%;
 }
 
 .sign--up--form{
-    padding:2%;
+    padding:1%;
     text-align: center;
     border: 1px solid #777777;
 
+}
+.sign--up--head {
+    text-align: center;
+    padding:1%;
 }
 .equipment--info{
     text-align:center;
@@ -135,6 +139,9 @@ margin-right: 40px;
         padding:2%;
         text-align: center;
 
+    }
+    .sign--up--head{
+        margin-top: 45px;
     }
 
     #nav--bar li{
